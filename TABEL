@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: aqua;
+}
+</style>
+</head>
+<body>
+
+<h2>MEDICITY HOSPITAL</h2>
+<p>Hospital door record for week 1</p>
+
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Patient Name</th>
+      <th>Check-in Time</th>
+      <th>Check-out Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Group 1: Separate patients -->
+    <tr>
+      <td>01.02.25</td>
+      <td>John Doe</td>
+      <td>09:55 AM</td>
+      <td>11:30 AM</td>
+    </tr>
+    <tr>
+      <td>02.02.25</td>
+      <td>Kenny Seb</td>
+      <td>09:55 AM</td>
+      <td>12:30 AM</td>
+    </tr>
+    <tr>
+      <td>03.02.25</td>
+      <td>Max May</td>
+      <td>09:55 AM</td>
+      <td>01:15 PM</td>
+    </tr>
+
+    <!-- Group 2: Jenny Ann -->
+    <tr>
+      <td>04.02.25</td>
+      <td rowspan="2">Jenny Ann</td>
+      <td rowspan="2">08:25 AM</td>
+      <td rowspan="2">11:30 PM</td>
+    </tr>
+    <tr>
+      <td>05.02.25</td>
+    </tr>
+    <tr>
+      <td>06.02.25</td>
+      <td>Jenny Ann</td>
+      <td>09:25 AM</td>
+      <td>10:30 PM</td>
+    </tr>
+
+    <!-- Group 3: 07.02.25 -->
+    <tr>
+      <td rowspan="3">07.02.25</td>
+      <td>Jenny Ann</td>
+      <td>11:05 AM</td>
+      <td>09:30 PM</td>
+    </tr>
+    <tr>
+      <td>Mathew James</td>
+      <td>04:25 PM</td>
+      <td>08:30 PM</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: center; background-color: #f0f0f0;">Meeting Break</td>
+    </tr>
+    <tr>
+      <td>07.02.25</td>
+      <td>Sam Sulek</td>
+      <td>08:25 PM</td>
+      <td>10:30 PM</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
