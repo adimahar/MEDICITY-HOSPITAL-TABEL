@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f0f0f0;
+}
+.qualified-yes {
+  background-color: #d4edda; /* Light green for "YES" */
+}
+.qualified-no {
+  background-color: #f8d7da; /* Light red for "NO" */
+}
+</style>
+</head>
+<body>
+
+<h2>University FOOTBALL Trials</h2>
+<p>Qualified students list for university nationals.</p>
+
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th colspan="2">ATHLETES</th>
+      <th>QUALIFIED</th>
+      <th>Age/Category</th>
+      <th>DOB</th>
+      <th>University</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LIONEL</td>
+      <td>MESSI</td>
+      <td class="qualified-no">NO</td>
+      <td>U20</td>
+      <td>24/06/2003</td>
+      <td rowspan="2">ISMA University Latvia</td>
+    </tr>
+    <tr>
+      <td>CRISTIANO</td>
+      <td>RONALDO</td>
+      <td class="qualified-yes">YES</td>
+      <td>U18</td>
+      <td>05/02/2005</td>
+    </tr>
+    
+    <tr>
+      <td>KYLIAN</td>
+      <td>MBAPPE</td>
+      <td class="qualified-no">NO</td>
+      <td>U20</td>
+      <td>20/12/2003</td>
+      <td rowspan="2">Riga Technical University Latvia</td>
+    </tr>
+    <tr>
+      <td>ERLING</td>
+      <td>HAALAND</td>
+      <td class="qualified-yes">YES</td>
+      <td>U18</td>
+      <td>21/07/2005</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
